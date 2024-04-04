@@ -3,6 +3,8 @@ package org.launchcode;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// The program functions as a gradebook, allowing a user (a professor or teacher) to enter the class roster for a course, along with each student’s grade. It then prints the class roster along with the average grade.
+
 public class ArrayListGradebook {
     public static void main(String[] args) {
         ArrayList<String> students = new ArrayList<>();

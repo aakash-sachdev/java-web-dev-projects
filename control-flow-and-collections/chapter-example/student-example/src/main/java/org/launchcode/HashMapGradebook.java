@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+//We’ll store the students’ grades along with their names in the same data structure. The names will be the keys, and the grades will be the values.
 public class HashMapGradebook {
     public static void main(String[] args) {
         HashMap<String, Double> students = new HashMap<>();

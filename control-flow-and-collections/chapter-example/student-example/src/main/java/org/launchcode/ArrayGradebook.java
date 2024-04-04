@@ -2,6 +2,8 @@ package org.launchcode;
 
 import java.util.Scanner;
 
+// here is a version of the Grade program using Arrays instead of ArrayLists
+
 public class ArrayGradebook {
     public static void main(String[] args) {
         // Allow for at most 30 students
