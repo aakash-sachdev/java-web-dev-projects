@@ -1,5 +1,9 @@
 package org.launchcode;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class PracticeChapterExamples {
 
     public static void main(String[] args) {

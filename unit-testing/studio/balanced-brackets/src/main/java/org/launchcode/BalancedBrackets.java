@@ -1,4 +1,7 @@
 package org.launchcode;
+
+import java.sql.SQLOutput;
+
 public class BalancedBrackets {
     /*
      * The function BalancedBrackets should return true if and only if
@@ -21,13 +24,19 @@ public class BalancedBrackets {
      */
     public static boolean hasBalancedBrackets(String str) {
         int brackets = 0;
+//        boolean openingBracket = false;
+
         for (char ch : str.toCharArray()) {
             if (ch == '[') {
                 brackets++;
             } else if (ch == ']') {
+//                if(openingBracket){
                 brackets--;
+                } if (brackets != 0) {
+                  return false;
+                }
             }
-        }
         return brackets == 0;
     }
+
 }
