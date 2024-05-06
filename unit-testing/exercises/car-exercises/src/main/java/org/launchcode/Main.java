@@ -10,6 +10,5 @@ public class Main {
         car.drive(requestedMiles);  // Call the drive method
         System.out.println("Gas tank level after driving: " + car.getGasTankLevel());
         System.out.println("Odometer reading after driving: " + car.getOdometer());
-
     }
 }
