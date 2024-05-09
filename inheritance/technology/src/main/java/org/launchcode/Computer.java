@@ -1,6 +1,6 @@
 package org.launchcode;
 
-public class Computer {
+public class Computer extends AbstractEntity {
 
     //Fields
     private String brand;
